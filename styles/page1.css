@@ -7,6 +7,7 @@ body{
     border: 0;
     outline: 0;
 }
+/* <!-- header part --> */
 .container{
     width:1321px;
     height: 646px;
@@ -53,6 +54,7 @@ body{
     height: 613px;
 }
 
+/* navigationpart */
 .nav-blog{
 display: flex;
 width: 1321px;
@@ -89,6 +91,8 @@ border-radius: 10px;
     background-color: #DD0000;
     color: #FFFFFF; 
 }
+
+/* blogpart */
 .blog{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -130,6 +134,7 @@ padding: 13px 40px;
 font-size: 20px;
 display: none;
 }
+/* footer part */
 footer{
     background-color: #161616;
     width: 100%;
@@ -176,7 +181,7 @@ text-align: center;
     padding: 20px;   
 }
 
-
+/* responsive_part_tab */
 @media screen and (max-width: 900px){
     .nav-blog{
         display: inline-block;
@@ -215,6 +220,8 @@ text-align: center;
             height: 500px;
         }
 }
+
+/* responsivepart_mbl */
 @media screen and (max-width: 375px){
     .container{
         display: inline-block;
